@@ -1,0 +1,22 @@
+{
+  "name": "pact-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "rimraf pacts",
+    "test": "npm run clean && npm run test:consumer && npm run test:publish && npm run test:provider",
+    "test:consumer": "jest --testTimeout 30000 --testMatch \"**/consumer.spec.js\"",
+    "test:publish": "pact-broker publish ./pacts --consumer-app-version=\"1.0.0\" --auto-detect-version-properties --broker-base-url=https://dhr.pactflow.io --broker-token 4Rnq-z9s2xtkEv44ACBfhQ",
+    "test:provider": "jest --testTimeout 30000 --testMatch \"**/provider.spec.js\""
+  },
+  "keywords": [
+    "pact",
+    "contract-testing"
+  ],
+  "author": "Jignesh Shah <jignesh@qable.io>",
+  "dependencies": {
+    "@pact-foundation/pact": "12.1.0",
+    "jest": "29.7.0",
+    "rimraf": "5.0.5"
+  }
+}
