@@ -1,15 +1,15 @@
 {
   "consumer": {
-    "name": "AjFrontendWebsite"
+    "name": "AjMobile"
   },
   "interactions": [
     {
-      "description": "Get All Breaking News For Website",
-      "providerState": "Breaking News Exists For Website",
+      "description": "Get All Breaking News For Mobile",
+      "providerState": "Breaking News Exists For Mobile",
       "request": {
         "method": "GET",
         "path": "/graphql",
-        "query": "extensions=%7b%7d&operationName=ArchipelagoBreakingTickerQuery&variables=%7b%7d&wp-site=aje"
+        "query": "extensions=%7b%7d&operationName=ArchipelagoBreakingTickerQuery&variables=%7b%7d&wp-site=mobile-aje"
       },
       "response": {
         "body": {

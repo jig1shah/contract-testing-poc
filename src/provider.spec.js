@@ -13,8 +13,8 @@ describe("Pact Verification", () => {
           latest: true,
         },
       ],
-      pactBrokerUrl: "https://dhr.pactflow.io",
-      pactBrokerToken: "4Rnq-z9s2xtkEv44ACBfhQ",
+      pactBrokerUrl: "https://al20jazeera.pactflow.io",
+      pactBrokerToken: "pqUDksFukt0CRI9gGoYUUQ",
       publishVerificationResult: true,
       requestFilter: (req, res, next) => {
         req.headers["Postman-Token"] = `54dac58e-403d-4f8a-ab04-5b58a870e85f`;

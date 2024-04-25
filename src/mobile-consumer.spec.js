@@ -9,7 +9,7 @@ const {
 const { like } = MatchersV3;
 
 const provider = new PactV3({
-  consumer: "AjFrontendWebsite",
+  consumer: "AjMobile",
   provider: "AjApiService",
   dir: "pacts",
   spec: SpecificationVersion.SPECIFICATION_VERSION_V2,
@@ -17,15 +17,15 @@ const provider = new PactV3({
 
 describe("API Pact test", () => {
   describe("Getting Breaking News", () => {
-    test("Breaking News Exists For Website", async () => {
+    test("Breaking News Exists For Mobile", async () => {
       await provider.addInteraction({
-        states: [{ description: "Breaking News Exists For Website" }],
-        uponReceiving: "Get All Breaking News For Website",
+        states: [{ description: "Breaking News Exists For Mobile" }],
+        uponReceiving: "Get All Breaking News For Mobile",
         withRequest: {
           method: "GET",
           path: "/graphql",
           query: {
-            "wp-site": "aje",
+            "wp-site": "mobile-aje",
             operationName: "ArchipelagoBreakingTickerQuery",
             variables: "{}",
             extensions: "{}",
@@ -62,7 +62,7 @@ describe("API Pact test", () => {
         const news = await axios
           .get(`${mockService.url}/graphql`, {
             params: {
-              "wp-site": "aje",
+              "wp-site": "mobile-aje",
               operationName: "ArchipelagoBreakingTickerQuery",
               variables: "{}",
               extensions: "{}",

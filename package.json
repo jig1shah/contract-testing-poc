@@ -4,9 +4,10 @@
   "description": "",
   "scripts": {
     "clean": "rimraf pacts",
-    "test": "npm run clean && npm run test:consumer && npm run test:publish && npm run test:provider",
+    "test": "npm run clean && npm run test:consumer && npm run test:mobile && npm run test:publish && npm run test:provider",
     "test:consumer": "jest --testTimeout 30000 --testMatch \"**/consumer.spec.js\"",
-    "test:publish": "pact-broker publish ./pacts --consumer-app-version=\"1.0.0\" --auto-detect-version-properties --broker-base-url=https://dhr.pactflow.io --broker-token 4Rnq-z9s2xtkEv44ACBfhQ",
+    "test:mobile": "jest --testTimeout 30000 --testMatch \"**/mobile-consumer.spec.js\"",
+    "test:publish": "pact-broker publish ./pacts --consumer-app-version=\"1.0.0\" --auto-detect-version-properties --broker-base-url=https://al20jazeera.pactflow.io --broker-token pqUDksFukt0CRI9gGoYUUQ",
     "test:provider": "jest --testTimeout 30000 --testMatch \"**/provider.spec.js\""
   },
   "keywords": [
