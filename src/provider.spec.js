@@ -16,14 +16,6 @@ describe("Pact Verification", () => {
       pactBrokerUrl: "https://al20jazeera.pactflow.io",
       pactBrokerToken: "pqUDksFukt0CRI9gGoYUUQ",
       publishVerificationResult: true,
-      requestFilter: (req, res, next) => {
-        req.headers["Postman-Token"] = `54dac58e-403d-4f8a-ab04-5b58a870e85f`;
-        req.headers["Accept"] = `*/*`;
-        req.headers["Accept-Encoding"] = `gzip, deflate, br`;
-        req.headers["Host"] = `develop.aje.aj-harbinger.com`;
-
-        next();
-      },
     };
 
     return new Verifier(opts).verifyProvider().then((output) => {
