@@ -8,7 +8,7 @@
       "providerState": "Breaking News Exists For Mobile",
       "request": {
         "headers": {
-          "wp-site": "mobile-aje"
+          "wp-site": "aje"
         },
         "method": "GET",
         "path": "/graphql",

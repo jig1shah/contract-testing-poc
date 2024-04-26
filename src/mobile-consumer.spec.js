@@ -31,7 +31,7 @@ describe("API Pact test", () => {
             extensions: "{}",
           },
           headers: {
-            "wp-site": "mobile-aje",
+            "wp-site": "aje",
           }
         },
         willRespondWith: {
@@ -71,7 +71,7 @@ describe("API Pact test", () => {
               extensions: "{}",
             },
             headers: {
-              "wp-site": "mobile-aje",
+              "wp-site": "aje",
             }
           })
           .then((r) => r.data);
