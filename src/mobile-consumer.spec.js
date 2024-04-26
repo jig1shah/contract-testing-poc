@@ -30,6 +30,9 @@ describe("API Pact test", () => {
             variables: "{}",
             extensions: "{}",
           },
+          headers: {
+            "wp-site": "mobile-aje",
+          }
         },
         willRespondWith: {
           status: 200,
@@ -67,6 +70,9 @@ describe("API Pact test", () => {
               variables: "{}",
               extensions: "{}",
             },
+            headers: {
+              "wp-site": "mobile-aje",
+            }
           })
           .then((r) => r.data);
 
