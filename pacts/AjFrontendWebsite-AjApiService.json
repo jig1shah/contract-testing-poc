@@ -7,6 +7,9 @@
       "description": "Get All Breaking News For Website",
       "providerState": "Breaking News Exists For Website",
       "request": {
+        "headers": {
+          "wp-site": "aje"
+        },
         "method": "GET",
         "path": "/graphql",
         "query": "extensions=%7b%7d&operationName=ArchipelagoBreakingTickerQuery&variables=%7b%7d&wp-site=aje"

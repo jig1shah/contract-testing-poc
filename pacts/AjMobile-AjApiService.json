@@ -7,6 +7,9 @@
       "description": "Get All Breaking News For Mobile",
       "providerState": "Breaking News Exists For Mobile",
       "request": {
+        "headers": {
+          "wp-site": "mobile-aje"
+        },
         "method": "GET",
         "path": "/graphql",
         "query": "extensions=%7b%7d&operationName=ArchipelagoBreakingTickerQuery&variables=%7b%7d&wp-site=mobile-aje"
