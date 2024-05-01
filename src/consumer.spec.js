@@ -17,7 +17,7 @@ const provider = new PactV3({
 
 describe("API Pact test", () => {
   describe("Getting Breaking News", () => {
-    test("Breaking News Exists For Website", async () => {
+    test("Test 1 Breaking News Exists For Website", async () => {
       await provider.addInteraction({
         states: [{ description: "Breaking News Exists For Website" }],
         uponReceiving: "Get All Breaking News For Website",
@@ -88,6 +88,46 @@ describe("API Pact test", () => {
             },
           },
         });
+      });
+    });
+
+    test("Test 2 Without add operationName Breaking News Exists For Website", async () => {
+      await provider.addInteraction({
+        states: [{ description: "Breaking News Exists For Website" }],
+        uponReceiving: "Get All Breaking News For Website",
+        withRequest: {
+          method: "GET",
+          path: "/graphql",
+          query: {
+            "wp-site": "aje",
+            variables: "{}",
+            extensions: "{}",
+          },
+          headers: {
+            "wp-site": "aje",
+          },
+        },
+        willRespondWith: {
+          status: 400,
+        },
+      });
+
+      await provider.executeTest(async (mockService) => {
+        // Request to moke server
+        await expect(() => {
+          return axios
+            .get(`${mockService.url}/graphql`, {
+              params: {
+                "wp-site": "aje",
+                variables: "{}",
+                extensions: "{}",
+              },
+              headers: {
+                "wp-site": "aje",
+              },
+            })
+            .then((r) => r.data);
+        }).rejects.toThrow("Request failed with status code 400");        
       });
     });
   });
