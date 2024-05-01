@@ -4,7 +4,7 @@ describe("Pact Verification", () => {
   it("validates the expectations of ProductService", () => {
     const opts = {
       logLevel: "INFO",
-      providerBaseUrl: "https://develop.aje.aj-harbinger.com",
+      providerBaseUrl: "https://staging.aje.aj-harbinger.com",
       provider: "AjApiService",
       providerVersion: "1.0.0",
       providerVersionBranch: "test",

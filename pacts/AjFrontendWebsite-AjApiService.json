@@ -4,30 +4,21 @@
   },
   "interactions": [
     {
-      "description": "Get All Breaking News For Website",
-      "providerState": "Breaking News Exists For Website",
+      "description": "Get All Article For Website",
+      "providerState": "Article Exists For Website",
       "request": {
         "headers": {
           "wp-site": "aje"
         },
         "method": "GET",
         "path": "/graphql",
-        "query": "extensions=%7b%7d&operationName=ArchipelagoBreakingTickerQuery&variables=%7b%7d&wp-site=aje"
+        "query": "extensions=%7b%7d&operationName=ArchipelagoSingleArticleQuery&variables=%7b%22name%22%3a%221-ta-op2-indonesias-tiktok-sellers-do-roaring-trading-in-hijab-handbags-16%22%2c%22postType%22%3a%22opinion%22%2c%22preview%22%3a%22%22%7d&wp-site=aje"
       },
       "response": {
         "body": {
           "data": {
-            "breakingNews": {
-              "__typename": "BreakingNews",
-              "link": "/news/2024/4/21/mass-grave-with-50-bodies-found-in-khan-younis-hlstyleguide-2",
-              "modified": "2024-04-23 08:25:30",
-              "post": "2840262",
-              "tickerText": [
-                "New topics",
-                "New breaking news",
-                "New update"
-              ],
-              "tickerTitle": "breaking"
+            "article": {
+              "content": "abc"
             }
           }
         },
@@ -35,22 +26,7 @@
           "Content-Type": "application/json; charset=utf-8"
         },
         "matchingRules": {
-          "$.body.data.breakingNews.__typename": {
-            "match": "type"
-          },
-          "$.body.data.breakingNews.link": {
-            "match": "type"
-          },
-          "$.body.data.breakingNews.modified": {
-            "match": "type"
-          },
-          "$.body.data.breakingNews.post": {
-            "match": "type"
-          },
-          "$.body.data.breakingNews.tickerText": {
-            "match": "type"
-          },
-          "$.body.data.breakingNews.tickerTitle": {
+          "$.body.data.article.content": {
             "match": "type"
           }
         },
