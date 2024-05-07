@@ -91,10 +91,10 @@ describe("API Pact test", () => {
     //   });
     // });
 
-    test("Article Exists For Website", async () => {
+    test("Opinion Exists For Website", async () => {
       await provider.addInteraction({
-        states: [{ description: "Article Exists For Website" }],
-        uponReceiving: "Get All Article For Website",
+        states: [{ description: "Opinion Exists For Website" }],
+        uponReceiving: "Get All Opinion For Website",
         withRequest: {
           method: "GET",
           path: "/graphql",
