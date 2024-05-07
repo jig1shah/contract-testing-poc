@@ -16,7 +16,7 @@ const provider = new PactV3({
 });
 
 describe("API Pact test", () => {
-  describe("Getting Breaking News", () => {
+  describe("Getting Data from GQL", () => {
     // test("Breaking News Exists For Website", async () => {
     //   await provider.addInteraction({
     //     states: [{ description: "Breaking News Exists For Website" }],
