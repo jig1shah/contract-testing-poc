@@ -1,13 +1,12 @@
 const { Verifier } = require("@pact-foundation/pact");
 
-describe("Pact Verification", () => {
-  it("validates the expectations of ProductService", () => {
+describe("Article Verification", () => {
+  it("Verify Article Contract", () => {
     const opts = {
       logLevel: "INFO",
       providerBaseUrl: "https://staging.aje.aj-harbinger.com",
-      provider: "AjApiService",
+      provider: "ActualGQLResult",
       providerVersion: "1.0.0",
-      providerVersionBranch: "test",
       consumerVersionSelectors: [
         {
           latest: true,

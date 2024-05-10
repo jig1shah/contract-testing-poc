@@ -1,0 +1,2694 @@
+{
+  "consumer": {
+    "name": "ExpectedGQLResult"
+  },
+  "interactions": [
+    {
+      "description": "Get All Article For Website",
+      "providerStates": [
+        {
+          "name": "Article Exists For Website"
+        }
+      ],
+      "request": {
+        "headers": {
+          "wp-site": "aje"
+        },
+        "method": "GET",
+        "path": "/graphql",
+        "query": {
+          "extensions": [
+            "{}"
+          ],
+          "operationName": [
+            "ArchipelagoSingleArticleQuery"
+          ],
+          "variables": [
+            "{\"name\":\"1-ta-a-indonesias-tiktok-sellers-do-roaring-trading-in-hijab-handbags-2-36\",\"postType\":\"post\",\"preview\":\"\"}"
+          ],
+          "wp-site": [
+            "aje"
+          ]
+        }
+      },
+      "response": {
+        "body": {
+          "data": {
+            "article": {
+              "__typename": "Post",
+              "author": [
+                {
+                  "__typename": "User",
+                  "avatars": [
+                    {
+                      "__typename": "AvatarURLs",
+                      "size": "24",
+                      "url": ""
+                    },
+                    {
+                      "__typename": "AvatarURLs",
+                      "size": "48",
+                      "url": ""
+                    },
+                    {
+                      "__typename": "AvatarURLs",
+                      "size": "96",
+                      "url": ""
+                    }
+                  ],
+                  "description": "",
+                  "facebook": "",
+                  "id": "561",
+                  "jobTitle": "",
+                  "link": "/author/ajeAutoChiefEditor",
+                  "linked_nicename": null,
+                  "name": "ajeAutoChiefEditor",
+                  "slug": "ajeAutoChiefEditor",
+                  "twitter": ""
+                },
+                {
+                  "__typename": "User",
+                  "avatars": [
+                    {
+                      "__typename": "AvatarURLs",
+                      "size": "24",
+                      "url": "/wp-content/uploads/2019/04/a30cce93f88c42cbb31e48adbcfc19d1_6.jpeg?resize=24%2C24"
+                    },
+                    {
+                      "__typename": "AvatarURLs",
+                      "size": "48",
+                      "url": "/wp-content/uploads/2019/04/a30cce93f88c42cbb31e48adbcfc19d1_6.jpeg?resize=48%2C48"
+                    },
+                    {
+                      "__typename": "AvatarURLs",
+                      "size": "96",
+                      "url": "/wp-content/uploads/2019/04/a30cce93f88c42cbb31e48adbcfc19d1_6.jpeg?resize=96%2C96"
+                    }
+                  ],
+                  "description": "Marwan Bishara is an author who writes extensively on global politics and is widely regarded as a leading authority on US foreign policy, the Middle East and international strategic affairs. He was previously a professor of International Relations at the American University of Paris.",
+                  "facebook": "",
+                  "id": "917772",
+                  "jobTitle": "Senior political analyst at Al Jazeera.",
+                  "link": "/author/marwan_bishara_201132512858571875",
+                  "linked_nicename": "",
+                  "name": "Marwan Bishara",
+                  "slug": "marwan_bishara_201132512858571875",
+                  "twitter": "https://twitter.com/MarwanBishara"
+                }
+              ],
+              "authorTagline": "Contract testing",
+              "categories": [
+                {
+                  "__typename": "Category",
+                  "customNavigation": null,
+                  "customNavigationBrandingImg": "",
+                  "displayCustomNavigationOnArticles": false,
+                  "homePageEvent": false,
+                  "link": "/news/",
+                  "name": "News",
+                  "slug": "news",
+                  "title": ""
+                }
+              ],
+              "content": "<p>On Saturday, October 7, Noura* went to work as usual early in the morning at the hospital in Israel where she’s been employed for more than two years.Forhe first time, the government took advantage of 2019’s financial management law, which allows for up to a three-year budget. H</p>\n<ul>\n<li>Killed: At least 2,808</li>\n</ul>\n<ol>\n<li>Zah</li>\n</ol>\n<ul>\n<li><a href=\"https://www.youtube.com/\">https://ww.youtube.com/</a></li>\n<li><a href=\"https://www.facebook.com/\">https://www.facebook.com/</a></li>\n<li><a href=\"https://www.twitter.com/\">https://www.twitter.com</a></li>\n</ul>\n<blockquote><p><a href=\"https://www.youtube.com/\">https://www.youtube.com/</a></p></blockquote>\n<p>This is the end of blockquote with URL.</p>\n<p>&nbsp;</p>\n<p><a href=\"https://www.instagram.com/\">https://www.instagram.com</a></p>\n<p>Youtube Embed by Link</p>\n<p>&nbsp;</p>\n<p>Brightcove video 2:</p>\n<p>Image 2:</p>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"alignleft size-arc-image-770 wp-image-2843660\" src=\"/wp-content/uploads/2024/05/image-1714950175.jpg?w=770&#038;resize=770%2C433\" alt=\"alt text of Featured Image\" width=\"770\" height=\"433\" srcset=\"/wp-content/uploads/2024/05/image-1714950175.jpg 1920w, /wp-content/uploads/2024/05/image-1714950175.jpg 300w, /wp-content/uploads/2024/05/image-1714950175.jpg 768w, /wp-content/uploads/2024/05/image-1714950175.jpg 1024w, /wp-content/uploads/2024/05/image-1714950175.jpg 1536w, /wp-content/uploads/2024/05/image-1714950175.jpg 770w, /wp-content/uploads/2024/05/image-1714950175.jpg 1170w, /wp-content/uploads/2024/05/image-1714950175.jpg 270w, /wp-content/uploads/2024/05/image-1714950175.jpg 730w, /wp-content/uploads/2024/05/image-1714950175.jpg 1366w, /wp-content/uploads/2024/05/image-1714950175.jpg 1568w\" sizes=\"(max-width: 770px) 100vw, 770px\" data-recalc-dims=\"1\" /></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n",
+              "correctionDate": "2024-05-07T00:00:00",
+              "correctionText": "On Saturday, October 7, Noura* went to work as usual early in the morning at the hospital in Israel where she’s been employed for more than two years.\r\nFor the first time, the government took advantage of 2019’s financial management law, which allows for up to a three-year budget. H2\r\nIraq has not only been slow at passing budgets, but three out of the past nine years also saw no budget passed at all – in 2014, 2020 & 2022. H3\r\nAlthough there is only half a year .",
+              "date": "2024-05-07T02:22:16",
+              "displayPublishDate": true,
+              "excerpt": "1% SUM A Indonesia’s TikTok Shop ban reveals mixed feelings on e-commerce revolution & online seller say it is misguided",
+              "explainerWidget": {
+                "__typename": "ExplainerWidget",
+                "posts": [],
+                "termLink": "",
+                "termTitle": "",
+                "title": ""
+              },
+              "externalUrl": null,
+              "featuredCaption": "",
+              "featuredDataWrapperIframe": "",
+              "featuredImage": {
+                "__typename": "Media",
+                "alt": "alt text of Image",
+                "caption": "",
+                "credit": "",
+                "height": 1080,
+                "id": "2843931",
+                "itemNumber": "",
+                "sourceUrl": "/wp-content/uploads/2024/05/image-1715060916.jpg",
+                "width": 1920
+              },
+              "featuredYoutube": "",
+              "galleryImagesCount": null,
+              "galleryMedia": [],
+              "hasElectionBanner": false,
+              "hideSponsorFooterBarText": null,
+              "hideSponsorHeaderBarText": null,
+              "homePageEvent": false,
+              "id": "2843863",
+              "internalReporting": [
+                {
+                  "__typename": "Category",
+                  "slug": "make-me-feel",
+                  "title": "Make me Feel"
+                }
+              ],
+              "internalTaxonomies": [],
+              "isBreaking": false,
+              "isDeveloping": false,
+              "isLive": false,
+              "link": "/news/2024/5/7/1-ta-a-indonesias-tiktok-sellers-do-roaring-trading-in-hijab-handbags-2-36",
+              "longform": null,
+              "midan": [],
+              "modified_gmt": "2024-05-07T06:02:48",
+              "moreOnWidgetArticles": [
+                {
+                  "__typename": "Post",
+                  "externalUrl": null,
+                  "link": "/news/2024/5/6/1-ta-a3-em-sc-vm-om-with-most-used-fields-40",
+                  "postType": "post",
+                  "replacementHeadline": "1% RH A3 EM: SC, Vm, Om with Most Used Fields",
+                  "title": "1% TA A3 EM: SC, Vm, Om with Most Used Fields"
+                }
+              ],
+              "outsideImage": {
+                "__typename": "Media",
+                "alt": "alt text of Image",
+                "caption": "",
+                "credit": "",
+                "height": 1080,
+                "id": "2843846",
+                "sourceUrl": "/wp-content/uploads/2024/05/image-1715039077.jpg",
+                "width": 1920
+              },
+              "postLabel": [
+                {
+                  "__typename": "Category",
+                  "featuredActionLink": "",
+                  "featuredTaxonomy": false,
+                  "featuredTaxonomyImage": null,
+                  "name": "Editorial"
+                }
+              ],
+              "postType": "post",
+              "primaryCategoryTerm": "news",
+              "primaryCategoryTermName": "News",
+              "primaryTagsTerm": "brexit",
+              "primaryTagsTermName": "Brexit",
+              "programs": [],
+              "proxyShortUrl": "https://aje.io/k6tbaw",
+              "relatedArticles": [
+                {
+                  "__typename": "Post",
+                  "author": [
+                    {
+                      "__typename": "User",
+                      "avatars": [
+                        {
+                          "__typename": "AvatarURLs",
+                          "size": "24",
+                          "url": ""
+                        },
+                        {
+                          "__typename": "AvatarURLs",
+                          "size": "48",
+                          "url": ""
+                        },
+                        {
+                          "__typename": "AvatarURLs",
+                          "size": "96",
+                          "url": ""
+                        }
+                      ],
+                      "description": "",
+                      "facebook": "",
+                      "id": "561",
+                      "jobTitle": "",
+                      "link": "/author/ajeAutoChiefEditor",
+                      "linked_nicename": null,
+                      "name": "ajeAutoChiefEditor",
+                      "slug": "ajeAutoChiefEditor",
+                      "twitter": ""
+                    },
+                    {
+                      "__typename": "User",
+                      "avatars": [
+                        {
+                          "__typename": "AvatarURLs",
+                          "size": "24",
+                          "url": "/wp-content/uploads/2019/04/a30cce93f88c42cbb31e48adbcfc19d1_6.jpeg?resize=24%2C24"
+                        },
+                        {
+                          "__typename": "AvatarURLs",
+                          "size": "48",
+                          "url": "/wp-content/uploads/2019/04/a30cce93f88c42cbb31e48adbcfc19d1_6.jpeg?resize=48%2C48"
+                        },
+                        {
+                          "__typename": "AvatarURLs",
+                          "size": "96",
+                          "url": "/wp-content/uploads/2019/04/a30cce93f88c42cbb31e48adbcfc19d1_6.jpeg?resize=96%2C96"
+                        }
+                      ],
+                      "description": "Marwan Bishara is an author who writes extensively on global politics and is widely regarded as a leading authority on US foreign policy, the Middle East and international strategic affairs. He was previously a professor of International Relations at the American University of Paris.",
+                      "facebook": "",
+                      "id": "917772",
+                      "jobTitle": "Senior political analyst at Al Jazeera.",
+                      "link": "/author/marwan_bishara_201132512858571875",
+                      "linked_nicename": "",
+                      "name": "Marwan Bishara",
+                      "slug": "marwan_bishara_201132512858571875",
+                      "twitter": "https://twitter.com/MarwanBishara"
+                    },
+                    {
+                      "__typename": "User",
+                      "avatars": [
+                        {
+                          "__typename": "AvatarURLs",
+                          "size": "24",
+                          "url": "/wp-content/uploads/2011/09/2011915144718387734_8.jpeg?resize=24%2C24"
+                        },
+                        {
+                          "__typename": "AvatarURLs",
+                          "size": "48",
+                          "url": "/wp-content/uploads/2011/09/2011915144718387734_8.jpeg?resize=48%2C48"
+                        },
+                        {
+                          "__typename": "AvatarURLs",
+                          "size": "96",
+                          "url": "/wp-content/uploads/2011/09/2011915144718387734_8.jpeg?resize=96%2C96"
+                        }
+                      ],
+                      "description": "",
+                      "facebook": "",
+                      "id": "921540",
+                      "jobTitle": "Ryan Luckey is co-founder of the Comun Tierra Project, which documents ecological projects in Latin America.",
+                      "link": "/author/ryan_luckey_201191464138276144",
+                      "linked_nicename": "",
+                      "name": "Ryan Luckey",
+                      "slug": "ryan_luckey_201191464138276144",
+                      "twitter": ""
+                    }
+                  ],
+                  "content": "<p>The leader of Polands governing party and a partner in its governing coalition announced an agreement late on Wednesday to postpone Sundays presidential election, without setting a new date for the poll.Jaroslaw Kaczynski, head of the ruling Law and Justice party, and Jaroslaw Gowin, leader of a small party in the conservative coalition, announced in a joint statement that they had agreed to cancel Sundays vote and set a new date. More: Polish presidential election in chaos with four days to go As most European elections are called off, Poland pushes ahead Tusk urges Poles to boycott election out of decency They called their decision a solution that will guarantee Poles the opportunity to participate in democratic elections. The decision brought some clarity to a chaotic situation that left Poles uncertain about whether they would be casting votes this weekend. The May 10 date had been set months ago, but the coronavirus pandemic and a government-ordered lockdown threw preparations into disarray.</p>\n<p>Bitter fighting between the conservative governing party and its political opponents kept them from agreeing on an alternative. The governing party had sought to stick to the election date by making it a postal vote, but proper legislation was still not approved. Many in Poland voiced concerns that such a vote organised at short notice might not be conducted property or meet democratic standards for fairness.</p>\n<p>A disagreement between Kaczynski and Gowin had also created a impasse that had threatened to cause an larger political crisis. Their joint statement suggested the crisis had been averted. Under their plan, after Sunday the Supreme Court will declare the election void because it does not happen, and then parliament Speaker Elzbieta Witek will announce a new presidential election to be held on the first possible date. Under a constitutionally dictated timeline, the last possible date for the presidential election in 2020 would be on May 23. But they said they would amend legislation regulating elections in 2020, which might suggest a later date. The vote will be conducted by postal ballot.</p>\n<p>The Law and Justice party is backing the reelection bid by President Andrzej Duda, whose five-year term expires on August 6. Duda leads in opinion polls, well ahead of the nine other candidates. Adam Bielan, the campaign spokesman for Duda, told private broadcaster TVN24 that he expected a new election to be held in late June or early July. Other politicians said it could be held as late as the end of July before Dudas term expires. The legislation passed the lower house of parliament last month but the senate took a month to debate it, then rejected it on Tuesday. The bill returned to the lower house, but there was no time left before Sunday to prepare the ballots and have postal workers deliver them to voters.</p>\n<p>&nbsp;</p>\n",
+                  "date": "2024-05-06T23:38:15",
+                  "excerpt": "1% Sum LB3 Indonesia’s TikTok Shop ban reveals mixed feelings on e-commerce revolution & online seller say it is misguid",
+                  "externalUrl": null,
+                  "featuredImage": {
+                    "__typename": "Media",
+                    "alt": "alt text of Gallry Image",
+                    "caption": "",
+                    "credit": "",
+                    "height": 1080,
+                    "id": "2843564",
+                    "sourceUrl": "/wp-content/uploads/2024/05/image-1714864764.jpg",
+                    "width": 1920
+                  },
+                  "id": "2843835",
+                  "link": "/news/liveblog/2024/5/6/1-ta-lb3-indonesias-tiktok-sellers-do-roaring-trading-in-hijab-handbags-25",
+                  "outsideImage": {
+                    "__typename": "Media",
+                    "alt": "alt text of Gallry Image",
+                    "caption": "",
+                    "credit": "",
+                    "height": 1080,
+                    "id": "2843564",
+                    "sourceUrl": "/wp-content/uploads/2024/05/image-1714864764.jpg",
+                    "width": 1920
+                  },
+                  "postType": "liveblog",
+                  "programs": [],
+                  "replacementHeadline": "1% RH LB3 England look to spoil under pressure India’s Cricket WorldCup par",
+                  "showAuthor": true,
+                  "title": "1% TA LB3 Indonesia’s TikTok sellers do roaring trading in hijab & handbags",
+                  "video": {
+                    "__typename": "Video",
+                    "duration": "01:21",
+                    "id": "6352421860112"
+                  },
+                  "writeInAuthor": "",
+                  "writeInCoAuthor": {
+                    "__typename": "WriteInAuthor",
+                    "name": "",
+                    "order": "1"
+                  }
+                }
+              ],
+              "replacementHeadline": "1% RH A England look to spoil under pressure India’s Cricket WorldCup party",
+              "series": [],
+              "shortUrl": "https://aje.io/1kkrxk",
+              "showAuthor": true,
+              "socialMediaImage": {
+                "__typename": "Media",
+                "caption": "",
+                "credit": "",
+                "height": 1080,
+                "sizes": [
+                  {
+                    "__typename": "MediaSize",
+                    "crop": "arc-image-1800",
+                    "cropRectangle": null,
+                    "height": 1080,
+                    "url": "/wp-content/uploads/2024/05/image-1715060916.jpg?resize=1800%2C1080",
+                    "width": 1800
+                  },
+                  {
+                    "__typename": "MediaSize",
+                    "crop": "arc-image-1200-630",
+                    "cropRectangle": null,
+                    "height": 630,
+                    "url": "/wp-content/uploads/2024/05/image-1715060916.jpg?resize=1200%2C630",
+                    "width": 1200
+                  },
+                  {
+                    "__typename": "MediaSize",
+                    "crop": "full",
+                    "cropRectangle": null,
+                    "height": 1080,
+                    "url": "/wp-content/uploads/2024/05/image-1715060916.jpg?fit=1920%2C1080",
+                    "width": 1920
+                  }
+                ],
+                "sourceUrl": "/wp-content/uploads/2024/05/image-1715060916.jpg",
+                "width": 1920
+              },
+              "source": [
+                {
+                  "__typename": "Category",
+                  "featuredActionLink": "",
+                  "featuredSourceLink": "",
+                  "featuredTaxonomy": false,
+                  "featuredTaxonomyImage": null,
+                  "name": "Al Jazeera"
+                }
+              ],
+              "sponsorFooterBarText": null,
+              "sponsorHeaderBarText": null,
+              "sponsorTax": [],
+              "sponsorshipType": null,
+              "subheading": "1% Defending champions England are among the teams most likely to stop hosts & favourites India the number 1 from lifting the trophy",
+              "tags": [
+                {
+                  "__typename": "Tag",
+                  "customNavigation": null,
+                  "customNavigationBrandingImg": "",
+                  "displayCustomNavigationOnArticles": false,
+                  "homePageEvent": false,
+                  "link": "/tag/brexit/",
+                  "slug": "brexit",
+                  "title": "Brexit"
+                }
+              ],
+              "themeMode": null,
+              "title": "contract test 1% TA A Indonesia’s TikTok sellers do roaring trading in hija",
+              "trending": [],
+              "updatedDate": "",
+              "verticalFeaturedImage": null,
+              "video": {
+                "__typename": "Video",
+                "accountId": "665003303001",
+                "duration": "05:48",
+                "id": "6352451647112",
+                "name": "Palestinians flee Khan Younis and Deir el-Balah after Israel orders Rafah evacuation",
+                "playerId": "6tKQRAx7lu"
+              },
+              "where": [
+                {
+                  "__typename": "Category",
+                  "customNavigation": null,
+                  "customNavigationBrandingImg": "",
+                  "displayCustomNavigationOnArticles": false,
+                  "link": "/where/africa/",
+                  "slug": "africa",
+                  "title": "Africa"
+                }
+              ],
+              "who": [],
+              "writeInAuthor": "Susan D'Souza",
+              "writeInCoAuthor": {
+                "__typename": "WriteInAuthor",
+                "name": "Susan D'Souza",
+                "order": "1"
+              }
+            }
+          }
+        },
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "matchingRules": {
+          "body": {
+            "$.data.article.__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.authorTagline": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].avatars[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].avatars[0].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].avatars[0].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].avatars[1].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].avatars[1].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].avatars[1].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].avatars[2].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].avatars[2].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].avatars[2].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].description": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].facebook": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].id": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].jobTitle": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].link": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].linked_nicename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].name": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].slug": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[0].twitter": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].avatars[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].avatars[0].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].avatars[0].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].avatars[1].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].avatars[1].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].avatars[1].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].avatars[2].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].avatars[2].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].avatars[2].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].description": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].facebook": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].id": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].jobTitle": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].link": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].linked_nicename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].name": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].slug": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.author[1].twitter": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.categories[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.categories[0].customNavigation": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.categories[0].customNavigationBrandingImg": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.categories[0].displayCustomNavigationOnArticles": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.categories[0].homePageEvent": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.categories[0].link": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.categories[0].name": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.categories[0].slug": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.categories[0].title": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.content": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.correctionDate": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.correctionText": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.date": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.displayPublishDate": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.excerpt": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.explainerWidget.__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.explainerWidget.posts": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.explainerWidget.termLink": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.explainerWidget.termTitle": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.explainerWidget.title": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.externalUrl": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.featuredCaption": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.featuredDataWrapperIframe": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.featuredImage.__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.featuredImage.alt": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.featuredImage.caption": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.featuredImage.credit": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.featuredImage.height": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.featuredImage.id": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.featuredImage.itemNumber": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.featuredImage.sourceUrl": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.featuredImage.width": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.featuredYoutube": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.galleryImagesCount": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.galleryMedia": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.hasElectionBanner": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.hideSponsorFooterBarText": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.hideSponsorHeaderBarText": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.homePageEvent": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.id": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.internalReporting[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.internalReporting[0].slug": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.internalReporting[0].title": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.internalTaxonomies": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.isBreaking": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.isDeveloping": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.isLive": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.link": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.longform": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.midan": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.modified_gmt": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.moreOnWidgetArticles[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.moreOnWidgetArticles[0].externalUrl": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.moreOnWidgetArticles[0].link": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.moreOnWidgetArticles[0].postType": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.moreOnWidgetArticles[0].replacementHeadline": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.moreOnWidgetArticles[0].title": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.outsideImage.__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.outsideImage.alt": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.outsideImage.caption": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.outsideImage.credit": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.outsideImage.height": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.outsideImage.id": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.outsideImage.sourceUrl": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.outsideImage.width": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.postLabel[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.postLabel[0].featuredActionLink": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.postLabel[0].featuredTaxonomy": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.postLabel[0].featuredTaxonomyImage": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.postLabel[0].name": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.postType": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.primaryCategoryTerm": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.primaryCategoryTermName": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.primaryTagsTerm": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.primaryTagsTermName": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.programs": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.proxyShortUrl": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].avatars[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].avatars[0].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].avatars[0].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].avatars[1].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].avatars[1].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].avatars[1].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].avatars[2].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].avatars[2].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].avatars[2].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].description": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].facebook": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].id": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].jobTitle": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].link": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].linked_nicename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].name": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].slug": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[0].twitter": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].avatars[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].avatars[0].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].avatars[0].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].avatars[1].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].avatars[1].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].avatars[1].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].avatars[2].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].avatars[2].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].avatars[2].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].description": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].facebook": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].id": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].jobTitle": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].link": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].linked_nicename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].name": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].slug": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[1].twitter": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].avatars[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].avatars[0].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].avatars[0].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].avatars[1].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].avatars[1].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].avatars[1].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].avatars[2].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].avatars[2].size": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].avatars[2].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].description": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].facebook": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].id": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].jobTitle": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].link": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].linked_nicename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].name": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].slug": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].author[2].twitter": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].content": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].date": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].excerpt": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].externalUrl": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].featuredImage.__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].featuredImage.alt": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].featuredImage.caption": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].featuredImage.credit": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].featuredImage.height": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].featuredImage.id": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].featuredImage.sourceUrl": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].featuredImage.width": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].id": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].link": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].outsideImage.__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].outsideImage.alt": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].outsideImage.caption": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].outsideImage.credit": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].outsideImage.height": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].outsideImage.id": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].outsideImage.sourceUrl": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].outsideImage.width": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].postType": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].programs": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].replacementHeadline": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].showAuthor": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].title": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].video.__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].video.duration": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].video.id": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].writeInAuthor": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].writeInCoAuthor.__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].writeInCoAuthor.name": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.relatedArticles[0].writeInCoAuthor.order": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.replacementHeadline": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.series": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.shortUrl": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.showAuthor": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.caption": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.credit": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.height": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[0].crop": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[0].cropRectangle": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[0].height": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[0].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[0].width": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[1].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[1].crop": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[1].cropRectangle": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[1].height": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[1].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[1].width": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[2].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[2].crop": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[2].cropRectangle": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[2].height": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[2].url": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sizes[2].width": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.sourceUrl": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.socialMediaImage.width": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.source[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.source[0].featuredActionLink": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.source[0].featuredSourceLink": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.source[0].featuredTaxonomy": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.source[0].featuredTaxonomyImage": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.source[0].name": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.sponsorFooterBarText": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.sponsorHeaderBarText": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.sponsorTax": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.sponsorshipType": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.subheading": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.tags[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.tags[0].customNavigation": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.tags[0].customNavigationBrandingImg": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.tags[0].displayCustomNavigationOnArticles": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.tags[0].homePageEvent": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.tags[0].link": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.tags[0].slug": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.tags[0].title": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.themeMode": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.title": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.trending": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.updatedDate": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.verticalFeaturedImage": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.video.__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.video.accountId": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.video.duration": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.video.id": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.video.name": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.video.playerId": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.where[0].__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.where[0].customNavigation": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.where[0].customNavigationBrandingImg": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.where[0].displayCustomNavigationOnArticles": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.where[0].link": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.where[0].slug": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.where[0].title": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.who": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.writeInAuthor": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.writeInCoAuthor.__typename": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.writeInCoAuthor.name": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            },
+            "$.data.article.writeInCoAuthor.order": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {},
+          "status": {}
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "12.1.0"
+    },
+    "pactRust": {
+      "ffi": "0.4.19",
+      "models": "1.1.19"
+    },
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  },
+  "provider": {
+    "name": "ActualGQLResult"
+  }
+}
